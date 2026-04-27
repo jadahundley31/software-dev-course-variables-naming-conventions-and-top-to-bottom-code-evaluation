@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let firstName = "Alice";
+let quantityOfItem = 5;
+let typeOfItem = "apples";
+let costOfItem = 20;
+const dateOfItemBought = "4/27";
+let customerReceipt = firstName + " bought " + quantityOfItem + " " + typeOfItem + " for $" + costOfItem +  " on " + dateOfItemBought + ".";
 
-console.log(d);
+console.log(customerReceipt);
